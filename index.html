@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>YasasFerreira</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body> 
+	 <div class="navbar">
+        <a href="#" onclick="showSection('section1')">Home</a>
+        <a href="#" onclick="showSection('section2')">About</a>
+        <a href="#" onclick="showSection('section3')">Education</a>
+        <a href="#" onclick="showSection('section4')">Skills</a>
+        <a href="#" onclick="showSection('section5')">Certificates</a>
+        <a href="#" onclick="showSection('section6')">Projects</a>
+        <a href="#" onclick="showSection('section7')">Contact</a>
+    </div>
+
+    <!--CreateHomePage-->
+    <div id="section1" class="section active" >
+        <h1 class="h1">Hi! I am <br>Yasas Ferreira.</h1>
+        <p class="p1">Bsc. in Applied Mathematics and Computing(UG)<br>
+        	University of Vavuniya,Sri Lanka.
+        </p>
+    </div>
+
+    <!--AboutPage-->
+    <div id="section2" class="section" >
+        <h2 class="h2">About</h2>
+        <p class="p2">
+        	Hello! I'm Yasas Ferreira, an undergraduate student at University of Vavuniya, Sri Lanka, where I am pursuing my passion for technology and programming. I have a strong interest in <b>Java</b> and <b>Python</b>, and I am actively expanding my skills in Web Development.
+			<br><br>
+			Over the course of my studies, I have gained hands on experience in various programming projects, both academic and personal. I enjoy solving complex problems and continuously strive to improve my coding skills. My coursework and personal projects have allowed me to become proficient in:
+		</p>
+		<ul>
+			<li><b>Java</b> : object-oriented programming, data structures, data algorithms</li>			
+			<li><b>Python</b> : Scripting, automation, data analisys </li>
+		</ul>
+
+		<p class="p2">
+			In addition to my programming expertise,I am also learning web development. I am familiar with HTML, CSS and Javascript. I am currentlyexploring frameworks like react and Django to create dynamic and responsive web applications.
+
+        </p>
+    </div>
+    <!-- Educationpage-->
+    <div id="section3" class="section" >
+        <h2 class="h2">Education</h2>
+        <p class="p3">
+        	University : University of Vavuniya,Sri Lanka.<br>
+        	Degree : Bsc. in Applied mathematics and Computing.<br>
+        	Expected Graduation : 2025
+        </p>
+    </div>
+    <!--skills-->
+    <div id="section4" class="section" >
+    	<h2 class="h2">Skills</h2>
+    	<p>
+    		<ul class="ul2">
+			<li ><strong>Programming Languages : </strong></li>
+			<ul class="ul3">
+				<li>Python</li>
+				<li>Java</li>
+			</ul>
+
+			<li><strong>Web Development : </strong></li>
+			<ul class="ul3">
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>React(learning)</li>
+				<li>Django(learning)</li>
+			</ul>
+
+			<li><strong>Tools and Technologies : </strong></li>
+			<ul class="ul3">
+				<li>Git</li>
+				<li>Github</li>
+				<li>VS Code</li>
+			</ul>
+
+		</ul>
+    	</p>
+    </div>
+
+    <!-- certificates-->
+
+    <div id="section5" class="section">
+    	<h2 class="h2">Certificates</h2>
+    	<p>
+    		<section >
+    			<p class="c1"><b>Python for Beginners<b><br>University of Moratuwa<br>Issued March 25,2024<br>Verification Code : 6c7NZHdz2J<br>Verification Url: 
+				<a  href="https://open.uom.lk/verify" >https://open.uom.lk/verify</a><br>
+				<a href="Certificates\img1.jpeg">[View Certificate]</a>
+				</p>
+    		</section>
+    		<section>
+    			<p class="c2"><b>Introduction to java<b><br>Sololearn<br>Issued May 22,2024<br>
+    			<a href="Certificates\img2.jpg">[View Certificate]</a>
+    			</p>
+    		</section>
+    		<section>
+    			<p class="c3"><b>Android App Development</b><br>Great Learning Academy<br>Issed June, 2024<br>
+				<a href="Certificates\img3.jpg" >[View Certificate]</a>
+				</p>
+    		</section>
+    		<section>
+    			<p class="c4"><b>Introduction to Web Development</b><br>
+				University of California,Davis offered through Coursera<br>
+				Issued june 27, 2024<br>
+				Verification Url: <a class="imga" href="https://coursera.org/verify/FWQUTMSLQZZA">https://coursera.org/verify/FWQUTMSLQZZA</a><br>
+				<a href="Certificates\img4.jpg">[View Certificate]</a>
+				</p>
+    		</section>
+    		<section>
+    			<p class="c5"><b>Java Programming<b><br>
+    			virtual Internship offered by CodSoft<br>
+    			Issued April 18, 2024<br>
+    			<a href="Certificates\img5.jpg">[View Certificate]</a>
+    			</p>
+    		</section>
+    		
+    	</p>
+    </div>
+
+    <!--ContactPage-->
+    <div id="section7" class="section">
+    	<div class="fn">
+    		<p class="fnme1" >First Name*<br></p>
+    		<input class="nme" id="fname">
+    	</div>
+    	<div class="ln">
+    		<p class="fnme1">Last Name<br></p>
+    		<input class="nme" id="lname">
+    	</div>
+    	<div class="em">
+    		<p class="fnme1">Email<br></p>
+    		<input class="eml" id="email">
+    	</div>
+    	<div class="mg">
+    		<p class="fnme1">Message</p>
+    		<input class="msg" id="message">
+    	</div>
+    	<div>
+    		<button class="but" id="button" onclick="getMessage()">Send Message</button>
+    	</div>
+    	
+    </div>
+
+    <script type="text/javascript" src="Script.js"></script>
+</body>
+</html>

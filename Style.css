@@ -1,0 +1,174 @@
+   		body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: black;
+        }
+        .navbar {
+            background: linear-gradient(to right,orange,purple);
+            overflow: hidden;
+            padding: 5px;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: black;
+            font-weight: 900;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .section {
+            display: none;
+            padding: 60px 20px;
+        }
+        .active {
+            display: block;
+        }
+        .h1{
+        	color: orange;
+        	font-size: 40pt;
+        	padding-top: 10%;
+        	padding-left: 15%;
+        	line-height: 45px;
+        }
+        .p1{
+        	color: lightblue;
+        	font-size: 14pt;
+        	padding-left: 15%;
+        	padding-top: -10px;
+        }
+        .h2{
+        	text-align: center;
+        	color: orange;
+        	font-size: 30pt;
+        }
+        .p2{
+        	color: lightblue;
+        	padding-left: 10%;
+        	padding-right: 10%;
+        	font-size: 14pt;
+        }
+        ul{
+        	padding-left: 20%;
+        }
+        ul li{
+        	color: lightblue;
+        	font-size: 14pt;
+        	
+        }
+      	.p3{
+      		color: lightblue;
+      		text-align: center;
+      		font-size: 14pt;
+      	}
+      	.ul2{
+      		color: lightblue;
+      		padding-left: 40%;
+      		font-size: 14pt;
+      	}
+      	.ul3{
+      		padding-left: 10%;
+      		font-size: 14pt;
+      	}
+      	.c1{
+      		position: absolute;
+      		border: 2px solid orange;
+      		color: lightblue;
+      		text-align:center;
+      		object-position: center;
+      		right: 35%;
+			left: 35%;
+			padding : 5px
+      	}
+      	.c2{
+      		position: absolute;
+      		border: 2px solid orange;
+      		color: lightblue;
+      		text-align:center;
+      		object-position: center;
+      		right: 35%;
+			left: 35%;
+			top: 60%;
+			padding: 5px;
+      	}
+      	.c3{
+      		position: absolute;
+      		border: 2px solid orange;
+      		color: lightblue;
+      		text-align:center;
+      		object-position: center;
+      		right: 35%;
+			left: 35%;
+			top: 80%;
+			padding: 5px;
+      	}
+      	.c4{
+      		position: absolute;
+      		border: 2px solid orange;
+      		color: lightblue;
+      		text-align:center;
+      		object-position: center;
+      		right: 35%;
+			left: 35%;
+			top: 100%;
+			padding: 5px;
+      	}
+      	.c5{
+      		position: absolute;
+      		border: 2px solid orange;
+      		color: lightblue;
+      		text-align:center;
+      		object-position: center;
+      		right: 35%;
+			left: 35%;
+			top: 130%;
+			padding: 5px;
+      	}
+      	.fnme1{
+      		color: lightblue;
+      	}
+      	.nme{
+      		width: 2in;
+      		height: 15pt;
+      	}
+      	.fn{
+      		position: absolute;
+      		left: 50%;
+      	}
+      	.ln{
+      		position: absolute;
+      		left: 70%;
+      	}
+      	.em{
+      		position: absolute;
+      		left: 50%;
+      		top: 30%;
+      	}
+      	.eml{
+      		width: 340pt;
+      		height: 15pt;
+      	}
+      	.mg{
+      		position: absolute;
+      		left: 50%;
+      		top: 45%;
+      	}
+      	.msg{
+      		width: 340pt;
+      		height: 90pt;
+      	}
+      	.but{
+      		position: absolute;
+      		left: 60%;
+      		width: 2in;
+      		height: 22pt;
+      		color: black;
+      		background-color: orange;
+      		top: 75%;
+      	}
+
