@@ -9,7 +9,7 @@
 
 - 💬 Ask me about **react, reactnative**
 
-- 📫 How to reach me **yasasferreira05@gmail.com**
+- 📫 How to reach me **https://yasasferreira.vercel.app**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
