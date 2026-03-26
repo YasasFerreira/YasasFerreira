@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Yasas Ferreira</h1>
-<h3 align="center">Computer Science Student | Frontend Developer | Passionate about React & React Native</h3>
+<h3 align="center">Computer Science Student | Developer | Passionate about React & React Native</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=yasasferreira&label=Profile%20views&color=0e75b6&style=flat" alt="yasasferreira" /> </p>
 
